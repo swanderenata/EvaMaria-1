@@ -34,7 +34,7 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Sachin123:sachin123@cluster0.tdb9rcv.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Ato filter vps server")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'SM_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Anurag_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001648014461'))
